@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Baidu Music",
+    "version": "1.0",
+    "description": "Baidu music downloader",
+    "content_scripts": [
+        {
+            "matches": ["*://*.baidu.com/*"],
+            "js": ["js/jquery-2.1.1.min.js", "js/bdmusic_dl.js"]
+        }
+    ]
+}
